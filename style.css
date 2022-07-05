@@ -143,3 +143,24 @@ button.button {
     font-size: 27px;
     padding: 19px 0;
 }
+/* time section */
+.time-count {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+    box-shadow: 0 0 15px 2px #ccc;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 30px;
+    text-align: center;
+}
+.times h1 {
+    font-size: 50px;
+    color: #2f2f2f;
+}
+.times p {
+    font-size: 19px;
+    line-height: 25px;
+    font-weight: 400;
+}
+/* footer section */
