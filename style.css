@@ -14,7 +14,8 @@ body{
     margin: auto;
 }
 
-/* ///////////////////////// */
+
+/* Banner Section */
 
 .banner{
     background-image: url(images/bg.png);
@@ -69,4 +70,38 @@ button.button {
     margin-top: 30px;
     box-shadow: 0px 0px 20px 5px #ff5a3469;
     border-radius: 5px;
+}
+ /* About Section */
+ .about {
+    background-image: url(images/7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 200px;
+}
+.about-section {
+    display: flex;
+}
+.about-right {
+    width: 70%;
+}
+
+.about-left {
+    width: 50%;
+    margin-top: 130px;
+}
+
+.about-left h1 {
+    font-size: 50px;
+    color: #2f2f2f;
+}
+
+.about-left p {
+    font-size: 19px;
+    line-height: 30px;
+    padding: 15px 0;
+}
+
+.about-right img {
+    max-width: 100%;
+    margin-top: 60px;
 }
